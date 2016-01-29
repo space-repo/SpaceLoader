@@ -1,0 +1,17 @@
+<html>
+<body>
+<form method="POST" enctype="multipart/form-data" action="/space/dataloader/load/upload">
+    File to upload: <input type="file" name="file">
+    <br/>
+    Type : <select name="loadType">
+    <option value="Channel">Load Channel</option>
+    <option value="OfferData">Offer Data</option>
+    <option value="Compatibility">Compatibility Matrix</option>
+	<option value="StoreData">Load StoreData</option>
+    <option value="PostalData">Load Postal Data</option>
+</select>
+    <br/> <br/>
+    <input type="submit" value="Upload"> Press here to upload data!
+</form>
+</body>
+</html>
